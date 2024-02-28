@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "bj0x0jwszSyyLAXHc2yCTlKFJPObNTdje2iE9CufVhE=",
+  "Source": "Dedecar.Api",
+  "BasePath": "_content/Dedecar.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/amirhossein/Projects/Dadecar/Dadecar/Dadecar.Application.csproj",
+      "Version": 2,
+      "Source": "Dadecar.Application",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Dedecar.Api/wwwroot",
+      "Source": "Dedecar.Api",
+      "ContentRoot": "/Users/amirhossein/Projects/Dadecar/Dedecar.Api/wwwroot/",
+      "BasePath": "_content/Dedecar.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

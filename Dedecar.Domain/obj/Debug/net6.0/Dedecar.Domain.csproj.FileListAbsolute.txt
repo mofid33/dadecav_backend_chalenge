@@ -1,0 +1,14 @@
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/bin/Debug/net6.0/Dedecar.Domain.deps.json
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/bin/Debug/net6.0/Dedecar.Domain.dll
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/bin/Debug/net6.0/Dedecar.Domain.pdb
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.csproj.AssemblyReference.cache
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.AssemblyInfoInputs.cache
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.AssemblyInfo.cs
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.csproj.CoreCompileInputs.cache
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.dll
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/refint/Dedecar.Domain.dll
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.pdb
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/ref/Dedecar.Domain.dll
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/bin/Debug/net6.0/Dedecar.Domain.runtimeconfig.json
+/Users/amirhossein/Projects/Dadecar/Dedecar.Domain/obj/Debug/net6.0/Dedecar.Domain.genruntimeconfig.cache
