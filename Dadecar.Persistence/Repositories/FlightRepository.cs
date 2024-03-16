@@ -26,7 +26,10 @@ namespace Dadecar.Persistence.Repositories
         {
             try
             {
-                return await _context.Flights.Include(c=>c.Route).Take(300).ToListAsync();
+                return await _context.Flights.Include(c=>c.Route).
+                                        //Take(300)
+                    AsNoTracking()
+                    .ToListAsync();
             }
             catch (System.Exception ex)
             {
@@ -68,7 +71,7 @@ namespace Dadecar.Persistence.Repositories
                             _flightStatusRes.origin_city_id = fli.Route.origin_city_id;
                             _flightStatusRes.departure_time = fli.departure_time;
                             _flightStatusRes.arrival_time = fli.arrival_time;
-                            _flightStatusRes.status = DetectFlight(fli).ToString();
+                            _flightStatusRes.status = DetectFlight(fli, flights).ToString();
                             _FlightStatusRes.Add(_flightStatusRes);
                         }
                             }
@@ -93,8 +96,11 @@ namespace Dadecar.Persistence.Repositories
                 var startDate =Convert.ToDateTime(dates.Split(" ")[0]);
                 var endDate = Convert.ToDateTime(dates.Split(" ")[1]);
         
-                return await _context.Flights.Include(c => c.Route).Skip(6000000).Take(2000)
+                return await _context.Flights.Include(c => c.Route)
+                    //.Skip(6000000).Take(2000)
+                    
                     .Where(t => t.departure_time.CompareTo(startDate) > 0 && t.arrival_time.CompareTo(endDate) < 0)
+                    .AsNoTracking()
                     .ToListAsync();
             }
             catch (System.Exception ex)
@@ -103,13 +109,17 @@ namespace Dadecar.Persistence.Repositories
             }
 
         }
-        public string DetectFlight(Flight item)
+        public string DetectFlight(Flight item,IEnumerable<Flight> flights)
         {
             try
             {
                 var newflight = item.departure_time.AddDays(-7);
                 var discontinuedflight = item.departure_time.AddDays(+7);
-              var dtect=   _context.Flights.Skip(6000000).Take(2000).Where(t =>t.airline_id==item.airline_id && (t.departure_time.CompareTo(newflight) > 0 || t.departure_time.CompareTo(discontinuedflight) < 0))
+              //var dtect=   _context.Flights
+                    //.Skip(6000000).Take(2000)
+              var dtect=   flights
+                    .Where(t =>t.airline_id==item.airline_id && (t.departure_time.CompareTo(newflight) > 0 || t.departure_time.CompareTo(discontinuedflight) < 0))
+                    //.AsNoTracking()
                            .First();
                 string res = "";
                 if (dtect.airline_id != 0)

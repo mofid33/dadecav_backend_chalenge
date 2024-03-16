@@ -1,63 +1,53 @@
-﻿<Properties StartupConfiguration="{59C7C3E4-56FE-4A79-894D-F33DCA77F3B2}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="40" column="1" />
-      <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="28" column="1" />
-      <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="71" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Dedecar.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{59C7C3E4-56FE-4A79-894D-F33DCA77F3B2}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Dadecar.Application PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Dadecar.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dedecar.Domain/Entities/Route.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dadecar.Persistence/Repositories/FlightRepository.cs">
     <Files>
-      <File FileName="Dadecar.Persistence/Repositories/FlightRepository.cs" Line="24" Column="56" />
-      <File FileName="Dadecar.Persistence/Contexts/ApplicationDbContext.cs" Line="81" Column="26" />
-      <File FileName="Dadecar/Interfaces/Repositories/IFlightRepository.cs" />
+      <File FileName="Dadecar.Persistence/Repositories/FlightRepository.cs" Line="113" Column="10" />
       <File FileName="Dadecar.Console/Program.cs" />
-      <File FileName="Dedecar.Api/Controllers/FlightController.cs" />
+      <File FileName="Dedecar.Api/Controllers/FlightController.cs" Line="50" Column="1" />
       <File FileName="Dedecar.Api/Program.cs" />
-      <File FileName="Dedecar.Api/appsettings.json" />
-      <File FileName="Dedecar.Domain/Entities/Flight.cs" Line="23" Column="22" />
-      <File FileName="Dedecar.Domain/Entities/Route.cs" Line="8" Column="22" />
+      <File FileName="Dedecar.Domain/Entities/Flight.cs" />
+      <File FileName="Dadecar/Dtos/FlightStatusRes.cs" />
+      <File FileName="Dadecar/Interfaces/Repositories/IFlightRepository.cs" />
+      <File FileName="Dedecar.Domain/Entities/Route.cs" />
       <File FileName="Dedecar.Domain/Entities/Subscription.cs" />
-      <File FileName="Dedecar.Domain/Entities/DadecavContext.cs" Line="91" Column="1" />
+      <File FileName="Dadecar.Persistence/Contexts/ApplicationDbContext.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dadecar" expanded="True">
-            <Node name="Dadecar.Application" expanded="True">
+            <Node name="Dadecar.Application">
               <Node name="Dtos" expanded="True" />
               <Node name="Interfaces" expanded="True">
                 <Node name="Repositories" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
             </Node>
-            <Node name="Dadecar.Domain" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Entities" expanded="True">
-                <Node name="Route.cs" selected="True" />
+            <Node name="Dadecar.Persistence">
+              <Node name="Repositories" expanded="True">
+                <Node name="FlightRepository.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="Dadecar.Persistence" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="ProjectDependencies" expanded="True" />
-              </Node>
-              <Node name="Contexts" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-            </Node>
-            <Node name="Dedecar.Api" expanded="True">
+            <Node name="Dedecar.Api">
               <Node name="Controllers" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="uploads" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Dedecar.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="48" column="1" />
+    <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="141" column="1" />
+    <Breakpoint file="/Users/amirhossein/Projects/Dadecar/Dadecar.Persistence/Repositories/FlightRepository.cs" relfile="Dadecar.Persistence/Repositories/FlightRepository.cs" line="80" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Dadecar.Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Dadecar.Application PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

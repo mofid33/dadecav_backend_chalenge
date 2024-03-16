@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bj0x0jwszSyyLAXHc2yCTlKFJPObNTdje2iE9CufVhE=",
+  "Hash": "ZEKFlnaCB2iukPGLGhGXv6FmZ4Yk3SLcTY7GLAtd9AY=",
   "Source": "Dedecar.Api",
   "BasePath": "_content/Dedecar.Api",
   "Mode": "Default",
@@ -27,5 +27,40 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/amirhossein/Projects/Dadecar/Dedecar.Api/wwwroot/.DS_Store",
+      "SourceId": "Dedecar.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/amirhossein/Projects/Dadecar/Dedecar.Api/wwwroot/",
+      "BasePath": "_content/Dedecar.Api",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/amirhossein/Projects/Dadecar/Dedecar.Api/wwwroot/uploads/export_638461732669980390.csv",
+      "SourceId": "Dedecar.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/amirhossein/Projects/Dadecar/Dedecar.Api/wwwroot/",
+      "BasePath": "_content/Dedecar.Api",
+      "RelativePath": "uploads/export_638461732669980390.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/export_638461732669980390.csv"
+    }
+  ]
 }
